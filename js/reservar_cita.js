@@ -73,7 +73,7 @@ try {
         if (hora === "") {
             alert("La hora es obligatoria.");
         }if (horaexpresion.test(hora) === false) {
-            alert("La fecha debe tener el formato YYYY-MM-DD.");
+            alert("La hora debe tener el formato HH:MM.");
             continue;
         } else {
             break; // Salir del ciclo si el email es válido
